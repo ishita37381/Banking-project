@@ -1,0 +1,80 @@
+Business Context
+In the rapidly evolving banking sector, understanding customer behavior and product performance across multiple dimensions such as relationship types, income bands, occupations, and nationality is crucial for strategizing personalized offerings, risk management, and portfolio growth. This dashboard enables the bank to identify:
+
+Top contributing segments to deposits and loans
+
+Patterns in account balances and lending
+
+Customer segmentation for targeted strategies
+
+Insights that can guide business decisions for product alignment and resource allocation
+
+Data Sources & Methodology
+Data Extraction & Cleaning (SQL):
+
+Raw banking data was extracted and cleaned using SQL queries.
+
+Data aggregation was performed to summarize total deposits, loans, account balances, and customer profiles.
+
+Missing values and outliers were identified and handled through SQL and Python preprocessing.
+
+Exploratory Data Analysis (Python - Jupyter Notebook):
+
+Performed detailed EDA to uncover patterns and correlations among key variables.
+
+Used Pandas, Matplotlib, and Seaborn for data manipulation and visualization.
+
+Segmentation was done based on Banking Relationship (Commercial, Private, Retail, Institutional), Gender, Income Band, Occupation, Nationality, and Year of Joining.
+
+Dashboard Development (Power BI):
+
+Built a user-friendly and dynamic dashboard allowing stakeholders to interactively filter data and view insights.
+
+Two main analysis pages were created:
+
+Deposit Analysis Dashboard
+
+Loan Analysis Dashboard
+
+KPI cards, bar charts, and donut charts were used for visual storytelling.
+
+Key Insights & Findings
+1. Deposit Analysis Highlights
+Total Deposits stand at 3.77bn, out of which Bank Deposits account for 2.01bn.
+
+Checking Account Balances (963.28M) surpass Savings Account Balances (698.73M), indicating higher transactional activity.
+
+Private Banking clients contribute the highest deposits (0.93bn), followed by Retail (0.43bn).
+
+By occupation, Web Developers (III & IV) are the top contributors to deposits, indicating potential for upselling premium products.
+
+Income segmentation shows High-Income Band clients (1.09bn deposits) are the largest contributors (54%), while Low and Medium bands contribute less, indicating a skewed deposit distribution.
+
+2. Loan Analysis Highlights
+Total Loans amount to 4.38bn, with Bank Loans accounting for 1.77bn.
+
+Business Lending is at 2.60bn, representing a significant share of the bank’s lending portfolio.
+
+Private Bank customers lead in loan volume (0.81bn), similar to deposit trends.
+
+By occupation, Web Developer I and II have the highest loan amounts, which reflects strong borrowing tendencies among these profiles.
+
+High-income clients again dominate in loan volume (942M), signifying the importance of this segment for loan products.
+
+European nationals contribute the largest share in both Deposits (0.87bn) and Loans (0.78bn), showcasing a region-specific concentration.
+
+3. Overall Customer Insights
+The dashboard covers a total of 3000 clients, providing a holistic view of the bank’s customer base.
+
+Gender filters allow slicing the data to observe behavioral differences, though this project currently shows aggregate figures.
+
+Business Applications & Use Cases
+Relationship Managers can identify high-value clients and focus on relationship deepening strategies.
+
+Product Teams can align deposit and loan products tailored for high-income bands and top-performing occupations.
+
+Risk Analysts can monitor the lending patterns of specific segments and design risk mitigation plans.
+
+Executives & Decision Makers can use the dashboard for strategic planning, forecasting, and optimizing portfolio distribution.
+
+Marketing Teams can design campaigns targeted at underperforming segments or upselling opportunities for top depositors.
